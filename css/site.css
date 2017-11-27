@@ -124,16 +124,24 @@ p {
   margin-bottom: 10px;
 }
 
+figure {
+  margin-bottom: 0;
+}
+
+figcaption {
+  margin-top: 10px;  
+}
+
 .portfolio-item:hover {
   opacity: 0.8;
 }
 
 .portfolio-item-heading {
-  left: -68px;
+  left: -0;
   right: 0;
   position: absolute;
-  width: 70%;
-  text-align: left;
+  width: 50%;
+  text-align: center;
   top: 120px;
   font-size: 24px;
   display: block;
@@ -179,6 +187,12 @@ p {
   .img-portfolio {
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .portfolio-item-heading {
+    left: -68px;
+    width: 70%;
+    text-align: left;
   }
 }
     
