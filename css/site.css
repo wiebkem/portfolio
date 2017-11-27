@@ -13,7 +13,8 @@ body {
 }
 
 .navbar .active a,
-.navbar .fa-bars {
+.navbar .fa-bars,
+.navbar .navbar-brand {
   color: #ffffff;
 }
 
@@ -23,10 +24,6 @@ body {
 
 .navbar .navbar-toggler {
   border-color: #ffffff;
-}
-
-.content {
-  margin-top: 90px;
 }
 
 footer {
@@ -70,6 +67,58 @@ h2 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
+}
+
+.portfolio {
+  padding: 50px 0;
+}
+
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: left;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+  height: 500px;
+  object-fit: contain;
+}
+
+.portfolio-item:hover {
+  opacity: 0.8;
+}
+
+.portfolio-item-heading {
+  left: -68px;
+  right: 0;
+  position: absolute;
+  width: 70%;
+  text-align: left;
+  top: 120px;
+  font-size: 24px;
+  display: block;
+  margin: auto;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(189, 93, 56, 0.8);
+  border-radius: 10px;
+  padding: 5px 10px;
+  z-index: 999;
+  -webkit-transition: all 0.3s ease-in-out;
+  /* Safari, Chrome, Opera */
+  -ms-transition: all 0.3s ease-in-out;
+  /* Internet Explorer 10+ */
+  transition: all 0.3s ease-in-out;
+  /* Modern browsers */
+}
+
+@media (min-width: 768px) {
+  .content {
+    margin-top: 90px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -136,20 +185,4 @@ a {
   color: #BD5D38; }
   a:hover, a:focus, a:active {
     color: #824027; }
-
-    .portfolio {
-      padding: 50px 0;
-    }
-    
-    .portfolio-item {
-      margin-bottom: 30px;
-    }
-    
-    .img-portfolio {
-      margin: 0 auto;
-    }
-    
-    .img-portfolio:hover {
-      opacity: .8;
-    }
     
