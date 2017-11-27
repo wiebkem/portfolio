@@ -78,7 +78,18 @@ h2 {
   position: relative;
   overflow: hidden;
   text-decoration: none;
+}
+
+.left {
   text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
 }
 
 .img-portfolio {
@@ -113,6 +124,10 @@ h2 {
   /* Internet Explorer 10+ */
   transition: all 0.3s ease-in-out;
   /* Modern browsers */
+}
+
+.projectDescription {
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
