@@ -117,10 +117,14 @@ p {
 
 .img-portfolio {
   margin: 0 auto;
-  height: 500px;
+  height: 250px;
   object-fit: contain;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.img-portfolio.constructionSitePhotography {
+  height: 500px;
 }
 
 figure {
@@ -136,12 +140,12 @@ figcaption {
 }
 
 .portfolio-item-heading {
-  left: -0;
+  left: 0;
   right: 0;
   position: absolute;
   width: 50%;
   text-align: center;
-  top: 120px;
+  top: 100px;
   font-size: 24px;
   display: block;
   margin: auto;
@@ -187,7 +191,6 @@ figcaption {
   }
 
   .portfolio-item-heading {
-    left: -68px;
     width: 70%;
   }
 }
