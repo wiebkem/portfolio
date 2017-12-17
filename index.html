@@ -10,71 +10,259 @@
 
     <title>Wiebke Meyer · Interaction Designer</title>
 
-    <!-- CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/site.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="font/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="font/font-awesome/css/font-awesome.min.css" rel="stylesheet">   
   </head>
 
-  <body>
+  <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigation">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Wiebke Meyer</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Wiebke Meyer</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Work.html">Work</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Resume.html">Resume</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Content -->
-    <div class="content container">
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-12">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" alt="Profile Image" src="img/profile.jpg" alt="">
+    <header class="headerbackground"></header>
+
+    <section id="about">
+      <div class="sectionDivider"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <img class="img-fluid profileImage rounded-circle" alt="Profile Image" src="img/profile.jpg" alt="">
+          </div>
+          <div class="col-lg-6 col-sm-6 col-xs-12 text-center">
+            <p class="introductionText mb-0">
+              After living in Germany and the Netherlands, I am currently based in Gothenburg (Sweden) where I study Interaction Design and Technologies at the Chalmers University of Technology.
+              <br />
+              Apart from that, I have a part-time job as a Frontend Developer where I work remotely from Sweden.
+            </p>
+          </div>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="my-auto">
-              <h1 class="mb-0">Wiebke
-                <span class="surname">Meyer</span>
-              </h1>
-              <div class="subheading mb-5">Gothenburg, Sweden ·
-                <a href="mailto:wiebke.meyer93@gmail.com">wiebke.meyer93@gmail.com</a>
-              </div>
-              <p class="mb-5">
-                I am a Master student in Interaction Design at the Chalmers University of Technology based in Gothenburg, Sweden.
-                <br />
-                Apart from that, I have a part-time job as a Frontend Developer where I work remotely from Sweden.
-              </p>
-              <ul class="list-inline list-social-icons mb-0">
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/wiebkemeyer" target="_blank">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-              </ul>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="sectionDivider"></div>
+      <div class="container p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal1">
+              <img class="img-portfolio" src="img/portfolio/prototyping.jpg" alt="Prototyping image">
+              <div class="portfolio-box-cover"></div>
+              <h3 class="portfolio-heading">Prototyping</h3>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal2">
+              <img class="img-portfolio" src="img/portfolio/constructionSitePhotography.jpeg" alt="Construction Site Photography image">
+              <div class="portfolio-box-cover"></div>
+              <h3 class="portfolio-heading">Construction Site Photography</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="sectionDivider"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <a href="mailto:wiebke.meyer93@gmail.com">
+              <span class="fa-stack fa-3x mb-3 sr-contact">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-6 text-center">
+            <a href="https://www.linkedin.com/in/wiebkemeyer" target="_blank">
+              <span class="fa-stack fa-3x mb-3 sr-contact">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <!--
+          <div class="col-lg-4 ml-auto text-center">
+            <a href="https://www.behance.net/wickoby55b1" target="_blank">
+              <span class="fa-stack fa-3x mb-3 sr-contact">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-behance fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          -->
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="contactName">
+              Wiebke
+              <span class="surname">Meyer</span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Modals -->
+    <!-- Prototyping Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
             </div>
+          </div>
+          <div id="prototypingProject" class="container">
+            <div class="my-auto">
+              <h2>Prototyping</h2>
+              <hr>
+              <div class="projectDescription">
+                <p class="mt-0">
+                  During the Prototyping in Interaction Design course I learned how to prototype with different materials.
+                  For example, I created 3D, Virtual Reality and Video prototypes within one day workshops to get to know the basics and possibilities within prototyping.
+                </p>
+                <p class="mt-0">
+                    The following example is one of the video prototypes. I created this video in a group.
+                    We created a manuscript of our idea and developed a storyboard.
+                    Afterwards we read the story and filmed the specific picture of the storyboard.
+                    This approach is perfect for a quick video to explain the idea, the story behind it and reach a big audience at the same time.
+                    It is easy to understand and can be spread in a way that a lot of people get a clear vision of the idea in a short time (2 minutes).
+                  </p>
+                <iframe class="youtubeVideo" src="https://www.youtube.com/embed/mGwucvS-vmY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Construction Site Photography Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div id="constructionSiteProject" class="container">
+            <div class="my-auto">
+              <h2>Construction Site Photography</h2>
+              <hr>
+              <div class="projectDescription">
+                <h3 class="mb-0">Introduction</h3>
+                <p class="mt-0">
+                  The Construction Site Photography interface was developed in a team consistent of 5 people.
+                  The two backgrounds that were given were 'Photographers' and 'Construction sites'.
+                  The goal was to create an interface for an app based on this background.
+                </p>
+        
+                <h3 class="mb-0">Design Process</h3>
+                <p class="mt-0">
+                  At first, we started to create different ideas with the help of the 'Design charette', 'Brainstorming', 'Now, How, Wow Matrix' and 'Dot Voting' methods.
+                  In the end we had like 9 ideas and chose the best one according to the design methods - 'Construction Site Photography'.
+                </p>
+                <cite>
+                  &quot;Our mission is to create a system mainly for photographers which provides an interactive map with construction sites, tagged photos from other users and photographic challenges. The system works as an educational, inspirational and explorational system for photographers.&quot;
+                </cite>
+                <p>
+                  After the idea generation process we conducted semi-structured interviews with two photographers to broaden our knowledge.
+                  In between the two interviews we created sketches and prototypes with the POP app.
+                  In POP it is possible to take an image of the sketches and add links to connect the different pages for the interaction with the user.
+                </p>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12 left">
+                    <figure>
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/sketchMap.jpg" alt="Sketch of a construction map">
+                      <figcaption>Fig1. - Sketch of a construction map.</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12 center">
+                    <figure>
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/sketchUserProfile.jpg" alt="Sketch of a user profile">
+                      <figcaption>Fig2. - Sketch of a user profile.</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12 right">
+                    <figure>
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/PopUserProfile.png" alt="Image of a user profile within POP">
+                      <figcaption>Fig3. - Image of a user profile within POP.</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <p>
+                  The sketches as well as the POP prototype were tested by a Focus group, user tests and one of the two professional photographers.
+                  <br />
+                  After these tests and some design changes, we created a digital version of our sketches.
+                </p>
+        
+                <h3 class="mb-0">Final design</h3>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12 left">
+                    <figure>
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitalMapImage.png" alt="Digital image of a construction map">
+                      <figcaption>Fig4. - Digital image of a construction map.</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12 center">
+                    <figure>
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitalImageGallery.png" alt="Digital image of the construction gallery">
+                      <figcaption>Fig5. - Digital image of the construction gallery.</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12 right">
+                    <figure>
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitalUserProfile.png" alt="Digital image of the user profile">
+                      <figcaption>Fig6. - Digital image of the user profile.</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                
+                <h3 class="mb-0">Learning Outcomes</h3>
+                <p class="mt-0">
+                  At the end of the project we figured out that the interfaces suited the best for hoppy photographers interested in construction sites.
+                  In case this app should fit for professional photographers as well, some major changes would have to be made.
+                  For example, due to the interviews with the professional photographers, we found out that they would require some job related content as well.
+                  At this point it is important to make a decision to focus either on hobby or professional photographers.
+                  <br />
+                  All in all, we learned that prestudies are very important to figure out the needs of the target group and the special requirements they have.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -82,7 +270,9 @@
     <!-- JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/site.js"></script>
+
   </body>
 
 </html>
