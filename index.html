@@ -30,10 +30,11 @@
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Personal website with portfolio" />
     <meta property="og:url" content="http://www.wiebkemeyer.com" />
-    <meta property="og:image" content="img/profile.jpg" />
+    <meta property="og:image" content="http://www.wiebkemeyer.com/img/profile.jpg" />
+    <meta property="og:image:alt" content="Profile Image" />
   </head>
 
-  <body id="page-top">
+  <body id="page-top" itemscope itemtype="http://schema.org/Person">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigation">
@@ -64,7 +65,7 @@
       <div class="sectionDivider"></div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-sm-6 col-xs-12" itemscope itemtype="http://schema.org/Person">
+          <div class="col-lg-6 col-sm-6 col-xs-12">
             <img class="img-fluid profileImage rounded-circle" alt="Profile Image" src="img/profile.jpg" title="" itemprop="image">
           </div>
           <div class="col-lg-6 col-sm-6 col-xs-12 text-center">
@@ -102,7 +103,7 @@
       </div>
     </section>
 
-    <section id="contact" itemscope itemtype="http://schema.org/Person">
+    <section id="contact">
       <div class="sectionDivider"></div>
       <div class="container">
         <div class="row">
@@ -121,7 +122,7 @@
             </a>
           </div>
           <div class="col-lg-6 text-center">
-            <a href="https://www.linkedin.com/in/wiebkemeyer" target="_blank">
+            <a href="https://www.linkedin.com/in/wiebkemeyer" target="_blank" itemprop="linkedin">
               <span class="fa-stack fa-3x mb-3 sr-contact">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -130,7 +131,7 @@
           </div>
           <!--
           <div class="col-lg-4 ml-auto text-center">
-            <a href="https://www.behance.net/wickoby55b1" target="_blank">
+            <a href="https://www.behance.net/wickoby55b1" target="_blank" itemprop="behance">
               <span class="fa-stack fa-3x mb-3 sr-contact">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-behance fa-stack-1x fa-inverse"></i>
