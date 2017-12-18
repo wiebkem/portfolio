@@ -5,8 +5,11 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Portfolio">
     <meta name="author" content="Wiebke Meyer">
+    <meta name="title" content="Wiebke Meyer · Interaction Designer">
+    <meta name="description" content="Personal website with portfolio">
+    <meta name="keywords" content="personal website; portfolio; interaction design"/>
+    <meta name="robots" content="index, follow" />
 
     <title>Wiebke Meyer · Interaction Designer</title>
 
@@ -18,6 +21,16 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <link href="font/font-awesome/css/font-awesome.min.css" rel="stylesheet">   
+
+    <!-- canonical tag -->
+    <link rel="canonical" href="http://www.wiebkemeyer.com"/>
+
+    <!-- open graph tags -->
+    <meta property="og:title" content="Wiebke Meyer · Interaction Designer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Personal website with portfolio" />
+    <meta property="og:url" content="http://www.wiebkemeyer.com" />
+    <meta property="og:image" content="img/profile.jpg" />
   </head>
 
   <body id="page-top">
@@ -51,8 +64,8 @@
       <div class="sectionDivider"></div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-sm-6 col-xs-12">
-            <img class="img-fluid profileImage rounded-circle" alt="Profile Image" src="img/profile.jpg">
+          <div class="col-lg-6 col-sm-6 col-xs-12" itemscope itemtype="http://schema.org/Person">
+            <img class="img-fluid profileImage rounded-circle" alt="Profile Image" src="img/profile.jpg" title="" itemprop="image">
           </div>
           <div class="col-lg-6 col-sm-6 col-xs-12 text-center">
             <p class="introductionText mb-0">
@@ -72,14 +85,14 @@
           <div class="col-lg-2 col-sm-0"></div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" data-toggle="modal" href="#portfolioModal1">
-              <img class="img-portfolio" src="img/portfolio/prototyping.jpg" alt="Prototyping image">
+              <img class="img-portfolio" src="img/portfolio/prototyping.jpg" alt="Prototyping Image" title="">
               <div class="portfolio-box-cover"></div>
               <h3 class="portfolio-heading">Prototyping</h3>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" data-toggle="modal" href="#portfolioModal2">
-              <img class="img-portfolio" src="img/portfolio/constructionSitePhotography.jpeg" alt="Construction Site Photography image">
+              <img class="img-portfolio" src="img/portfolio/constructionSitePhotography.jpeg" alt="Construction Site Photography Image" title="">
               <div class="portfolio-box-cover"></div>
               <h3 class="portfolio-heading">Construction Site Photography</h3>
             </a>
@@ -89,7 +102,7 @@
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" itemscope itemtype="http://schema.org/Person">
       <div class="sectionDivider"></div>
       <div class="container">
         <div class="row">
@@ -100,7 +113,7 @@
         </div>
         <div class="row">
           <div class="col-lg-6 text-center">
-            <a href="mailto:wiebke.meyer93@gmail.com">
+            <a href="mailto:wiebke.meyer93@gmail.com" itemprop="email">
               <span class="fa-stack fa-3x mb-3 sr-contact">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -128,7 +141,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h3 class="contactName">
+            <h3 class="contactName" itemprop="name">
               Wiebke
               <span class="surname">Meyer</span>
             </h3>
@@ -208,19 +221,19 @@
                 <div class="row">
                   <div class="col-md-4 col-sm-12 col-xs-12 left">
                     <figure>
-                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/sketchMap.jpg" alt="Sketch of a construction map">
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/sketchMap.jpg" alt="Sketch of a construction map" title="">
                       <figcaption>Fig1. - Sketch of a construction map.</figcaption>
                     </figure>
                   </div>
                   <div class="col-md-4 col-sm-12 col-xs-12 center">
                     <figure>
-                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/sketchUserProfile.jpg" alt="Sketch of a user profile">
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/sketchUserProfile.jpg" alt="Sketch of a user profile" title="">
                       <figcaption>Fig2. - Sketch of a user profile.</figcaption>
                     </figure>
                   </div>
                   <div class="col-md-4 col-sm-12 col-xs-12 right">
                     <figure>
-                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/PopUserProfile.jpg" alt="Image of a user profile within POP">
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/PopUserProfile.jpg" alt="Image of a user profile within POP" title="">
                       <figcaption>Fig3. - Image of a user profile within POP.</figcaption>
                     </figure>
                   </div>
@@ -235,19 +248,19 @@
                 <div class="row">
                   <div class="col-md-4 col-sm-12 col-xs-12 left">
                     <figure>
-                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitalMapImage.jpg" alt="Digital image of a construction map">
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitalMapImage.jpg" alt="Digital image of a construction map" title="">
                       <figcaption>Fig4. - Digital image of a construction map.</figcaption>
                     </figure>
                   </div>
                   <div class="col-md-4 col-sm-12 col-xs-12 center">
                     <figure>
-                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitalImageGallery.jpg" alt="Digital image of the construction gallery">
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitalImageGallery.jpg" alt="Digital image of the construction gallery" title="">
                       <figcaption>Fig5. - Digital image of the construction gallery.</figcaption>
                     </figure>
                   </div>
                   <div class="col-md-4 col-sm-12 col-xs-12 right">
                     <figure>
-                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitaluserprofile.jpg" alt="Digital image of the user profile">
+                      <img class="img-portfolio constructionSitePhotography" src="img/ConstructionSitePhotography/digitaluserprofile.jpg" alt="Digital image of the user profile" title="">
                       <figcaption>Fig6. - Digital image of the user profile.</figcaption>
                     </figure>
                   </div>
