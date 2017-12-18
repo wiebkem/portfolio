@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+http://www.wiebkemeyer.com/sitemap.xml
