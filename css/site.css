@@ -21,18 +21,26 @@ a:hover, a:focus, a:active {
   background-color: #fff;
 }
 
+#navigation.navbar-shrink {
+  background-color: transparent;
+  border: none;
+}
+
 #navigation a.nav-link {
-  color: #660C03;
+  color: #93281D;
+}
+
+#navigation a.nav-link.active,
+#navigation a.nav-link:hover.active,
+#navigation a.nav-link:focus.active {
+  color: #EF2F34; 
 }
 
 #navigation a.nav-link:hover,
 #navigation a.nav-link:focus
 #navigation a.nav-link:focus:hover,
-#navigation a.nav-link.active,
-#navigation a.nav-link:hover.active,
-#navigation a.nav-link:focus.active,
 .portfolio-heading {
-  color: #FFB0A8; 
+  color: #FFD2CD; 
 }
 
 .portfolio-box:hover .portfolio-heading {
@@ -47,24 +55,6 @@ a:hover, a:focus, a:active {
 
 .portfolio-box .portfolio-box-cover {
   color: #fff;
-}
-
-@media (min-width: 992px) {  
-  #navigation a.nav-link {
-    background-color: #FFB0A8;
-  }
-  
-  #navigation a.nav-link:hover,
-  #navigation a.nav-link:focus
-  #navigation a.nav-link:focus:hover {
-    background-color: #660C03;
-  }
-  
-  #navigation a.nav-link.active,
-  #navigation a.nav-link:hover.active,
-  #navigation a.nav-link:focus.active {
-    background-color: #93281D;
-  }
 }
 /* end color */
 
@@ -101,6 +91,12 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+#navigation.navbar-shrink a.nav-link,
+#navigation.navbar-shrink .navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+}
+
 header.headerbackground {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -109,7 +105,13 @@ header.headerbackground {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
+  filter: blur(3px);
+  /* Browser Specific */
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
 }
 
 section {
@@ -336,4 +338,19 @@ hr {
   .introductionText {
     margin-top: 7rem;
   }
+}
+
+/* childrens technology modal */
+.img-portfolio.hallerobot {
+  height: 500px;
+  object-fit: contain;
+}
+
+.img-portfolio.robots {
+  height: 150px;
+  object-fit: contain;
+}
+
+.img-portfolio.childrenTechnology {
+  object-fit: contain;
 }

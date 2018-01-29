@@ -79,7 +79,6 @@
       <div class="sectionDivider"></div>
       <div class="container p-0">
         <div class="row no-gutters popup-gallery">
-          <div class="col-lg-2 col-sm-0"></div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" data-toggle="modal" href="#portfolioModal1">
               <img class="img-portfolio" src="img/portfolio/prototyping.jpg" alt="Prototyping Image" title="">
@@ -94,7 +93,13 @@
               <h3 class="portfolio-heading">Construction Site Photography</h3>
             </a>
           </div>
-          <div class="col-lg-2 col-sm-0"></div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" data-toggle="modal" href="#portfolioModal3">
+              <img class="img-portfolio" src="img/portfolio/childrensTechnology.jpeg" alt="Children's Technology Image" title="">
+              <div class="portfolio-box-cover"></div>
+              <h3 class="portfolio-heading">Children's Technology</h3>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -127,16 +132,6 @@
               https://www.linkedin.com/in/wiebkemeyer
             </a>
           </div>
-          <!--
-          <div class="col-lg-4 ml-auto text-center">
-            <a href="https://www.behance.net/wickoby55b1" target="_blank">
-              <span class="fa-stack fa-3x mb-3 sr-contact">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-behance fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </div>
-          -->
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -197,7 +192,7 @@
               <h2>Construction Site Photography</h2>
               <hr>
               <div class="projectDescription">
-                <h3 class="mb-0">Introduction</h3>
+                <h3 class="mb-0">Background</h3>
                 <p class="mt-0">
                   The Construction Site Photography interface was developed in a team consistent of 5 people.
                   The two backgrounds that were given were 'Photographers' and 'Construction sites'.
@@ -281,9 +276,112 @@
       </div>
     </div>
 
+    <!-- Children's Technology Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="container modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div id="constructionSiteProject">
+            <div class="my-auto">
+              <h2>Children's Technology</h2>
+              <hr>
+              <div class="projectDescription">
+                <h3 class="mb-0">Background</h3>
+                <p class="mt-0">
+                  Children today use technology fluently and naturally in many parts of their lives.
+                  But children are also far detached from the inner workings of technology, these are hidden away behind nice usable interfaces. 
+                  A new wave of games that teach children programming have been hitting the market in the past 10 years and new visual programming tools are emerging, 
+                  with the aim to reintroduce programming to the wider public. 
+                  Programming is not something that is part of our natural upbringing, such as writing and painting. 
+                  In this project we tried to deal with the the possible solution to the problem stated above and we worked with 3-4 age children designing a logic game.
+                </p>
+        
+                <h3 class="mb-0">Design Process</h3>
+                <p class="mt-0">
+                  Before we started with the design, we visited the preschool and discussed the project purpose with the teacher. 
+                  Additionally, we observed the environment and the children and planned three workshops with them.
+                  <br/>
+                  After the first impression we brainstormed and looked for existing games and technologies.
+                  As a group we had an ideation session and worked out a prototype (based on Wizard of Oz) to test it in the first workshop with the children.
+                  During that workshop we observed the children's behavior and got feedback from the teacher as well.
+                  <br/>
+                  In the second workshop we tested our improved prototype and 
+                  carried out a codesign session in which the children were allowed to draw their own robots.
+                  <br/>
+                  The third workshop included our final design and a thank you certificate for all children.
+                  To get some valuable and constructive feedback we used structured observation methods and had a final debrief dialogue with the teacher and the children.
+                </p>
+        
+                <h3 class="mb-0">Final design</h3>
+                <p class="mt-0">
+                  All in all, we ended up with a 3x3 grid as shown in figure 1. 
+                  The robot always shows up in the lower left grid, facing upwards, and can be moved with the arrows.
+                  <br/>
+                  <figure>
+                    <img class="img-portfolio hallerobot" src="img/ChildrensTechnology/hallerobot.jpg" alt="Hallerobot - grid with robot and gift" title="">
+                    <figcaption>Fig1. - Hallerobot -> grid with robot and gift.</figcaption>
+                  </figure>
+                  The facing direction (image) of the robot can be changed by using the keyboard buttons 'a' (figure 2), 'w' (figure 3), 
+                  's' (figure \4) and 'd' (shown within figure 1).
+                  <br/>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12 left">
+                      <figure>
+                        <img class="img-portfolio robots" src="img/ChildrensTechnology/robot_left.png" alt="Robot facing left" title="">
+                        <figcaption>Fig2. - Robot facing left.</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 center">
+                      <figure>
+                        <img class="img-portfolio robots" src="img/ChildrensTechnology/robot_back.png" alt="Robot facing up" title="">
+                        <figcaption>Fig3. - Robot facing up.</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 right">
+                      <figure>
+                        <img class="img-portfolio robots" src="img/ChildrensTechnology/robot_forward.png" alt="Robot facing down" title="">
+                        <figcaption>Fig4. - Robot facing down.</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  The gift is randomly positioned on a square in the grid, but never on or next to the robot. 
+                  The robot is moved by a facilitator, for example a teacher, based on the arrows the children have put on the game board (figure 5).
+                  <br/>
+                  <br/>
+                  <figure>
+                    <img class="img-portfolio childrenTechnology" src="img/ChildrensTechnology/finalarrows.jpg" alt="Game board and arrows" title="">
+                    <figcaption>Fig5. - Game board and arrows.</figcaption>
+                  </figure>
+                  Once the robot is positioned on the same square as the gift, the teachers is supposed to click on 'enter' to start the applause and animation. 
+                  The applause is played for 10 seconds and afterwards an animated robot with happy background music is shown to the children. 
+                  The animated robots are robots that the children have drawn themselves, like in figure 6.
+                  <br/>
+                  <br/>
+                  <figure>
+                    <img class="img-portfolio childrenTechnology" src="img/ChildrensTechnology/drawnrobots.jpg" alt="Robots drawn by the children" title="">
+                    <figcaption>Fig6. - Robots drawn by the children.</figcaption>
+                  </figure>
+                  The final prototype can be found on <a href="https://wiebkem.github.io/ChildrensTechnology/" target="_blank">Github</a>.
+                </p>
+              </div>
+              <hr>
+              <p>
+                The project was carried out by Wiebke Meyer, Jan Urbanek, Anukrit Verma and Zihua Yang.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- JavaScript -->
     <script src="js/plugins.min.js"></script>
     <script src="js/plugins/jquery.easing.min.js"></script>
+    <script src="js/plugins/scrollreveal.min.js"></script>
     <script src="js/site.min.js"></script>
 
   </body>
