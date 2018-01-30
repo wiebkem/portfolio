@@ -168,10 +168,20 @@ hr {
   outline: none; 
 }
 
-.img-portfolio {
+.portfolio-box,
+.portfolio-box .img-portfolio,
+.portfolio-box .compat-object-fit {
   height: 250px;
   width: 100%;
+}
+
+.portfolio-box .img-portfolio {
   object-fit: cover;
+}
+
+.portfolio-box .compat-object-fit {
+  background-size: cover;
+  background-position: center center;
 }
 
 .portfolio-heading {
@@ -291,8 +301,9 @@ hr {
 }
 
 /* construction site photography modal */
-.img-portfolio.constructionSitePhotography {
+figure .img-portfolio.constructionSitePhotography {
   height: 500px;
+  max-width: 100%;
   object-fit: contain;
 }
 
@@ -341,16 +352,21 @@ hr {
 }
 
 /* childrens technology modal */
-.img-portfolio.hallerobot {
+figure .img-portfolio {
+  max-width: 100%;
+}
+
+figure .img-portfolio.hallerobot {
   height: 500px;
   object-fit: contain;
 }
 
-.img-portfolio.robots {
+figure .img-portfolio.robots {
   height: 150px;
   object-fit: contain;
 }
 
-.img-portfolio.childrenTechnology {
+figure .img-portfolio.childrenTechnology {
+  height: 250px;
   object-fit: contain;
 }

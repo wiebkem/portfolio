@@ -47,4 +47,15 @@
     $(".navbar").removeClass("d-none");
   });
 
+  // modernizr to make objectfit available in IE
+  if ( ! Modernizr.objectfit ) {
+    $(".img-portfolio").each(function () {
+      var $container = $(this);
+      var imgUrl = $container.find("img").prop("src");
+      if (imgUrl) {
+        $container.css("backgroundImage", "url(" + imgUrl + ")").addClass("compat-object-fit");
+      }  
+    });
+  }
+
 })(jQuery); // End of use strict
