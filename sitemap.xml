@@ -7,6 +7,34 @@
 
 <url>
   <loc>http://www.wiebkemeyer.com/</loc>
-  <lastmod>2017-12-18T20:08:55+00:00</lastmod>
+  <lastmod>2018-10-24T19:06:08+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
+<url>
+  <loc>http://www.wiebkemeyer.com/index.html</loc>
+  <lastmod>2018-10-24T19:06:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.wiebkemeyer.com/downloads/CV.pdf</loc>
+  <lastmod>2018-10-24T19:06:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.wiebkemeyer.com/dacheleganz-project.html</loc>
+  <lastmod>2018-10-24T19:06:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.wiebkemeyer.com/homelesslife-project.html</loc>
+  <lastmod>2018-10-24T19:06:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.wiebkemeyer.com/hallerobot-project.html</loc>
+  <lastmod>2018-10-24T19:06:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
