@@ -912,6 +912,12 @@ header .intro-text {
 	margin-top: 70px;
 }
 
+/* General styles */
+.portfolio-info-link {
+	color: #616e7c;
+	text-decoration: underline;
+}
+
 /* dacheleganz project */
 #dacheleganzProject {
 	margin-bottom: 30px;
