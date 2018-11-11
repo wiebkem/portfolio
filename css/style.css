@@ -913,9 +913,14 @@ header .intro-text {
 }
 
 /* General styles */
-.portfolio-info-link {
+.project-info-link {
 	color: #616e7c;
 	text-decoration: underline;
+}
+
+.project-info-container {
+	text-align: center;
+	margin-top: 20px;
 }
 
 /* dacheleganz project */
