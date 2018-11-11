@@ -913,6 +913,18 @@ header .intro-text {
 }
 
 /* General styles */
+@font-face {
+    font-family: GreatVibes;
+    src: url("../fonts/GreatVibes-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-brand {
+	font-family: "GreatVibes", 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+
 .project-info-link {
 	color: #616e7c;
 	text-decoration: underline;
