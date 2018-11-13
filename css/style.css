@@ -949,6 +949,10 @@ header .intro-text {
 	margin-bottom: 30px;
 }
 
+#dacheleganzProject figure .img-portfolio {
+    max-width: 100%;
+}
+
 #dacheleganzProject figure .img-portfolio.persona {
     height: 400px;
     object-fit: contain;
@@ -994,12 +998,21 @@ header .intro-text {
 	margin-bottom: 30px;
 }
 
-#homelessLifeProject figure .img-portfolio.ideation {
+#homelessLifeProject figure .img-portfolio {
+    max-width: 100%;
+}
+
+#homelessLifeProject figure .img-portfolio {
+	max-width: 100%;
+	height: 270px;
+}
+
+figure .img-portfolio.ideation {
     height: 250px;
     object-fit: contain;
 }
 
-#homelessLifeProject figure .img-portfolio.sketches {
+figure .img-portfolio.sketches {
     height: 500px;
     object-fit: contain;
 }
