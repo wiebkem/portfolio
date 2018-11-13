@@ -979,40 +979,27 @@ header .intro-text {
 #hallerobotProject {
 	margin-bottom: 30px;
 }
-figure .img-portfolio {
-    max-width: 100%;
+
+#hallerobotProject figure {
+	text-align: center;
 }
 
-figure .img-portfolio.hallerobot {
-    height: 500px;
-    object-fit: contain;
+#hallerobotProject figure .img-portfolio {
+	max-width: 100%;
+	height: 270px;
 }
-
-figure .img-portfolio.robots {
-    height: 150px;
-    object-fit: contain;
-}
-
-figure .img-portfolio.childrenTechnology {
-    height: 250px;
-    object-fit: contain;
-}
-
 
 /* homeless life project */
 #homelessLifeProject {
 	margin-bottom: 30px;
 }
-figure .img-portfolio {
-    max-width: 100%;
-}
 
-figure .img-portfolio.ideation {
+#homelessLifeProject figure .img-portfolio.ideation {
     height: 250px;
     object-fit: contain;
 }
 
-figure .img-portfolio.sketches {
+#homelessLifeProject figure .img-portfolio.sketches {
     height: 500px;
     object-fit: contain;
 }
