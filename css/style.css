@@ -949,6 +949,15 @@ header .intro-text {
 	margin-bottom: 30px;
 }
 
+#dacheleganzProject figure {
+	text-align: center;
+}
+
+#dacheleganzProject figure .img-portfolio {
+	max-width: 100%;
+	height: 270px;
+}
+
 #dacheleganzProject figure .img-portfolio {
     max-width: 100%;
 }
@@ -998,21 +1007,11 @@ header .intro-text {
 	margin-bottom: 30px;
 }
 
-#homelessLifeProject figure .img-portfolio {
-    max-width: 100%;
+#hallerobotProject figure {
+	text-align: center;
 }
 
 #homelessLifeProject figure .img-portfolio {
 	max-width: 100%;
 	height: 270px;
-}
-
-figure .img-portfolio.ideation {
-    height: 250px;
-    object-fit: contain;
-}
-
-figure .img-portfolio.sketches {
-    height: 500px;
-    object-fit: contain;
 }
