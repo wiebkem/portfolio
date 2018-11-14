@@ -1,0 +1,5 @@
+- jquery.1.11.1
+- bootstrap
+- jquery.isotope
+- jqBootstrapValidation
+- main
