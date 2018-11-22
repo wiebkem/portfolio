@@ -731,74 +731,15 @@ header .intro-text {
 	margin-top: 20px;
 }
 
-/* dacheleganz project */
-#dacheleganzProject {
+.portfolio-item-page {
 	margin-bottom: 30px;
 }
 
-#dacheleganzProject figure {
+.portfolio-item-page figure {
 	text-align: center;
 }
 
-#dacheleganzProject figure .img-portfolio {
-	max-width: 100%;
-	height: 270px;
-}
-
-#dacheleganzProject figure .img-portfolio {
-    max-width: 100%;
-}
-
-#dacheleganzProject figure .img-portfolio.persona {
-    height: 400px;
-    object-fit: contain;
-}
-
-#dacheleganzProject figure .img-portfolio.sketches {
-    height: 500px;
-    object-fit: contain;
-}
-
-#dacheleganzProject figure .img-portfolio.generativeResearch,
-#dacheleganzProject figure .img-portfolio.wireframe {
-    height: 200px;
-    object-fit: contain;
-}
-
-#dacheleganzProject figure .img-portfolio.questionnaire {
-    height: 180px;
-    object-fit: contain;
-}
-
-#dacheleganzProject figure .img-portfolio.color {
-    height: 80px;
-    object-fit: contain;
-}
-
-/* hallerobot project */
-#hallerobotProject {
-	margin-bottom: 30px;
-}
-
-#hallerobotProject figure {
-	text-align: center;
-}
-
-#hallerobotProject figure .img-portfolio {
-	max-width: 100%;
-	height: 270px;
-}
-
-/* homeless life project */
-#homelessLifeProject {
-	margin-bottom: 30px;
-}
-
-#hallerobotProject figure {
-	text-align: center;
-}
-
-#homelessLifeProject figure .img-portfolio {
+.portfolio-item-page figure .img-portfolio {
 	max-width: 100%;
 	height: 270px;
 }
