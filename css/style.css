@@ -266,7 +266,7 @@ ul.cat li {
 }
 ol.type li {
 	display: inline-block;
-	margin-left: 20px;
+	margin: 2px 0 2px 20px;
 }
 ol.type li:after {
 	content: ' | ';
@@ -402,30 +402,8 @@ ol.type li a:hover {
 	color: #E87E04;
 	text-shadow: 1px 1px #fff;
 }
-.chart {
-	position: relative;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	margin-bottom: 26px;
-	text-align: center;
-}
-.chart canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.percent {
-	display: inline-block;
-	font-size: 21px;
-	color: #474d5d;
-	line-height: 152px;
-	z-index: 2;
-}
-.percent:after {
-	content: '%';
-	margin-left: 0.1em;
-	font-size: .8em;
+#skills .skill i.fa {
+	font-size: 35px;
 }
 /* Contact Section */
 #contact {
