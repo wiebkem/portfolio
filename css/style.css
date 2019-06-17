@@ -402,7 +402,10 @@ ol.type li a:hover {
 	color: #E87E04;
 	text-shadow: 1px 1px #fff;
 }
-#skills .skill i.fa {
+#skills .skill i.fas,
+#skills .skill i.far,
+#skills .skill i.fal,
+#skills .skill i.fab {
 	font-size: 35px;
 }
 /* Contact Section */
@@ -424,7 +427,10 @@ ol.type li a:hover {
 #contact form {
 	padding: 30px 0;
 }
-#contact i.fa {
+#contact i.fas,
+#contact i.far,
+#contact i.fal,
+#contact i.fab {
 	margin-bottom: 10px;
 }
 #contact .text-danger {
